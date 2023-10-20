@@ -1,0 +1,80 @@
+Basic commands ------------------------>
+
+note: starting me jab jum terminal ko open karte hai to hum ~ (home directory) me hote hai , home directory woo hai jaha humne apna window ka account bana rakha hai , iss home directory me hii desktop and other chize hongi 
+
+1.  ls  = list files (agar hum terminal me ls command type karenge to apne system me hum jaha bhi hai waha ki sabhi files print ho jaayegi like agar hum desktop me hai to desktop ki sabhi files print ho jaayegi)
+
+2.  pwd = print working directory(terminal pe ye command type karenge to ye hame bata dega ki hum currentyly konsi folder me kaam kar rahe hai)
+
+2. clear = clear screen (iss command se pura terminal clear ho jaayega )
+
+note : agar hume purani command run karni hai to hum upward key press karenge and new command key liye downward key ko press karenge 
+
+
+
+
+navigation commands ----------------------->
+
+1. cd = change directory(cd command ki help se hum apni current working directory ko change kar sakte hai , iske liye hum likhna hai cd space folder name  example - cd desktop , ab hum desktop folder me aagye hai yaha ls command run karenge to desktop ki sabhi files print ho jaayegi , iss tarah se agar hume jis bhi folder pe jana hai uke liye cd then folder name)
+
+2. cd .. = back button (agar hum ek step back jana hai to uske liye type karenge cd then space .. )
+
+3. mutliple step ahead - agar hume eksath multiple step aage jaana hai to uske liye likhenge cd foldername/foldername example: cd desktop/flipkart
+
+4. multiple step backward = agar multiple step back jaana hai to uske liye likhenge cd ../.. isse 2 step back chale jaayenge 
+
+note : agar hum kisi folder ka half naam likh ke tab press karenge to wo name autocomplete ho jaayega 
+
+
+
+changing directory with absolute path and relative path ----------------->
+
+1. absolute path / se start hota and relative path / se start nahi hota 
+
+2. jab hum relative path use karte hai to jaha hum hai agar wo folder wha exist karta hai to hum ja sakte hai warna nahi example agar hum home directory me hai or waha agar hum cd flipcart command run karenge to file not found batayega kyuki home directory me flipcart nahi hai flipcart home directory me desktop ke andar hai to uske liye hum use lete hai relative path 
+
+3. agar hume home directory se flipcart pe jaana hai to start se lihna padega , likhenge - cd /c/users/choud/desktop/Flipcart
+
+4. absolute path ki help se hum chae kisi bhi directory me ho waha se waha absolute path ko use karke kahi bhi navigate kar sakte hai lekin relative path me hum sequence wise hi navigate karte hai 
+
+5. computer ki root directoty ko hum / se simbolise karte hai  , home directory ko ~ se simbolise karte hai 
+
+
+making directories ------------------------>
+
+1. mkdir = make directory (iss command se sirf hum folder create kar sakte hai , suppose hume desktop ke koi folder create karna hai to uske liye hum jaayenge desktop then waha karenge mkdir foldername example - mkdir hello)
+
+2. creating folder with the help of relative path example - mkdir desktop/hello/bye   , so yaha iski help se desktop me jo hello folder hai waha bye naam ka folder create ho jaayega 
+
+3. creating folder with the help of absolute path example - mkdir /c/users/choud/desktop/hello/india    ,so iski help se hello folder me india naam ka folder create ho jaayega 
+
+
+flags --------------------->
+
+1. agar hum apni command ke sath koi flag bhi pass karte hai to hume or additional information mil jaati un dirctories ke baare me 
+
+2. man = man command ki help se hum kisi bhi command ke baare me puri details jaan sakte hai , like agar hum likh de  man ls to ls command ke baare me puri details humare pass aa jaayegi , inhi details me likha hoga  option available inhe hum flags kahte hai inko use kare hum extra information gain kar sakte hai , iss detail wale box se bahar niklne ke liye press kare q
+
+3. example of how to use flag = ls -1  , isse sabhi folder print ho jaayenge current working directory ke but is baar unki extra information bhi show hogi
+
+4. flags ko combine karne ke liye -1a is tarah likh sakte hai 
+
+5. windows terminal me man command work nahi karti uske stan pe you can use help help or --help then command name 
+
+
+creating files with the help of touch command -------------->
+
+1. touch = touch command ki help se hum kisi bhi folder me new file create kar sakte hai , iske liye hum uss folder pe jaayenge then likhenge touch file name , suppose hum abhi hello folder me hai to ab hum command type karenge - touch index.html     isse hello folder me index.html naam se ek file create ho jaayegi 
+
+2. touch command time change karne ke kaam aati hai , agar wo file exist nahi karti to uss name se file create kar degi 
+
+
+
+
+deleting files and folders -------------------------->
+
+1. rm - removes files(rm then file ka naam likh ke kisi bhi file ko delete kar sakte hai , iske liye sbse pahle uss file wale folder pe jana hai then ye command run karna hai)
+
+2. rmdir - remove directory ( rmdir ki help se kisi empty folder ko delete kar sakte ha iske liye type karna hai rmdir then folder name ,iske liye sbse pahle uss folder pe jana hai then ye command run karna hai)
+
+3. rm -rf - remove with force ( iski help se hum kisi bhi folder ko delete kar sakte hai chae wo empty ho ya full , iske liye type karenge rm -rf folder name , iske liye sbse pahle uss folder pe jana hai then ye command run karna hai)
